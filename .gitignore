@@ -31,7 +31,11 @@ Thumbs.db
 data/
 
 # Generated outputs from experiments
-runs/
+!runs/
+!runs/*/*.json
+!runs/*/*.md
+!runs/*/*.png
+# Keep other png artifacts ignored unless they live in runs
 *.png
 
 # Python packaging leftovers
