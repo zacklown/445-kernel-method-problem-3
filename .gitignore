@@ -1,0 +1,40 @@
+# Python build/cache artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.matplotlib_cache/
+
+.DS_Store
+Thumbs.db
+
+# Local editor/project metadata
+.vscode/
+.idea/
+
+# Dataset artifacts (local, large)
+*.pkl
+*.pkz
+data/
+
+# Generated outputs from experiments
+runs/
+*.png
+
+# Python packaging leftovers
+*.egg-info/
+dist/
+build/
